@@ -541,7 +541,6 @@ async fn handle_commands(my_id: String, my_address: String, dht: Arc<Mutex<HashM
 }
 
 #[tokio::main]
-#[allow(unused_variables)]
 async fn main() {
 
     // generate keys
